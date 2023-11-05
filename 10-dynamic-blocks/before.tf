@@ -1,9 +1,9 @@
-provider "aws" {
+/* provider "aws" {
   region = "us-east-1"
 }
 
 resource "aws_security_group" "demo_sg" {
-  name = "sample-sg"
+  name = "before-dyn-sample-sg"
 
   ingress {
     from_port   = 8200
@@ -40,3 +40,4 @@ resource "aws_security_group" "demo_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+ */
