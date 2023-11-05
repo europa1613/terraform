@@ -1,0 +1,4 @@
+terraform apply -replace=aws_instance.myec2
+
+replaces the instance even thought terraform doesn't detect any state changes.
+Used when there are changes manually made to resources from the console.
