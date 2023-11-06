@@ -33,3 +33,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 .private
+
+15-provisioners-remote_exec/tf-key.pem
